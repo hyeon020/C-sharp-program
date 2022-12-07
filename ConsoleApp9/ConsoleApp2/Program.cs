@@ -19,7 +19,7 @@ namespace ConsoleApp2
                 {
                     throw new Ex(); //두번째 try블록에서 예외 발생
                 }
-                finally
+                finally  //예외발생 상관없이 무조건 실행되는 finally 블록
                 {
                     Console.WriteLine("finally in 2nd try block");
                 }
