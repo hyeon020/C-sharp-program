@@ -38,7 +38,7 @@ namespace exam__03
             }
             StreamWriter w = new StreamWriter(os);             //StreamWriter객체 w 생성
 
-            for(int i = A; i<=B; i++)
+            for(int i = A; i<=B; i++)                         //정수i A부터 B까지
             {
                 if(i == A)
                 {
