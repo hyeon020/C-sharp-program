@@ -16,7 +16,7 @@ namespace test2_4_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form1()); //Form1생성
         }
     }
 }
