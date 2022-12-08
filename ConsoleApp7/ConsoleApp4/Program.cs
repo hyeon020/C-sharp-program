@@ -24,8 +24,8 @@ namespace ConsoleApp4
             Ex ex = new Ex();
             ExDelegator d1 = new ExDelegator(ex.InstanceMethod);
             ExDelegator d2 = new ExDelegator(Ex.StaticMethod);
-            d1("C#");
-            d2(".NET");
+            d1("C#");  //C# Programming Language 출력
+            d2(".NET"); //.NET Framework 출력
         }
     }  
 }
