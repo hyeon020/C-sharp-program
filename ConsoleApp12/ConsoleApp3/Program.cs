@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-enum Color { Red, Green, Blue};
+enum Color { Red, Green, Blue };
 namespace ConsoleApp2
 {
     internal class Class1
