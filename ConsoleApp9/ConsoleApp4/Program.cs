@@ -17,7 +17,7 @@ namespace ConsoleApp4
             Console.WriteLine("Done! " + Thread.CurrentThread.Name);
         }
     }
-    class ExerciseCh6_10_4
+    class ExerciseCh6_10_4 //Chapter6 예제
     {
         public static void Main()
         {
