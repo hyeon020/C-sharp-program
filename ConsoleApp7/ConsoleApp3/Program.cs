@@ -49,7 +49,7 @@ namespace p260_8
 
         public void Draw() //원을 그리는 메소드
         {
-            Console.WriteLine("원 그리기"); //원 그리기 메시지 출력
+            Console.WriteLine("원 그리기"); //실제 원 그리기 대신 메시지 출력
         }
     }
 
