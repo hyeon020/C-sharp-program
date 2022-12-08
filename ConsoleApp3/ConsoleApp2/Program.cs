@@ -10,7 +10,7 @@ class P150_8
             {
                 for (int k = i; k < 4 + i; k++) //몇단인지 출력
                 {
-                    if (k > 9)
+                    if (k > 9) //k가 9보다 크면
                         break; //9단이 넘어가면 중지
                     Console.Write(k + "*" + j + "=" + k * j + "\t"); // 구구단 출력
                 }
