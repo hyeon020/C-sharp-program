@@ -14,7 +14,7 @@ namespace ConsoleApp2
             Console.WriteLine("Entering first try block");
             try //첫번째 try
             {
-                Console.WriteLine("Entering second try block");
+                Console.WriteLine("Entering second try block"); 
                 try //두번째 try
                 {
                     throw new Ex(); //두번째 try블록에서 예외 발생
@@ -29,7 +29,7 @@ namespace ConsoleApp2
             }
             finally  //예외발생 상관없이 무조건 실행되는 finally 블록
             {
-                Console.WriteLine("finally in 1st try block");
+                Console.WriteLine("finally in 1st try block"); //무조건 finally in 1st try block 출력
             }
         }
     }
