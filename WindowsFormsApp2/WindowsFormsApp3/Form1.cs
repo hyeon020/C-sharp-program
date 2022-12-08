@@ -17,7 +17,7 @@ namespace WindowsFormsApp3
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //버튼클릭
         {
             //textBox1의 text를 2진수로 변환하여 textBox2로 설정
             textBox2.Text = Convert.ToString(int.Parse(textBox1.Text), 2);
