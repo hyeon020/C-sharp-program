@@ -11,7 +11,7 @@ namespace mid_exam_2
     {
         static void Main(string[] args)
         {
-            int result;
+            int result; //결과값 정수형으로 초기화
             IA class_ia = new IA();
             Console.Write("First Operand => ");
             class_ia.a = int.Parse(Console.ReadLine()) ;
@@ -19,7 +19,7 @@ namespace mid_exam_2
             class_ia.b = int.Parse(Console.ReadLine()); // a, b의 값 입력받고 class_ia객체의 a,b 필드 초기화
 
             result = class_sum(class_ia.a, class_ia.b); //IA 클래스를 인자로 사용
-            Console.WriteLine($"a+b = {class_ia.a}+{class_ia.b}={result}");
+            Console.WriteLine($"a+b = {class_ia.a}+{class_ia.b}={result}"); //a+b결과값 출력
 
         }
         static int class_sum(int a, int b) //IA 클래스를 인자로 사용
