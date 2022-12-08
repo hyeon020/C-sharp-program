@@ -39,7 +39,7 @@ namespace ConsoleApplication34
             {
                 while (sp != -1)
                 {
-                    Console.WriteLine("{0}", stack[sp--]); //정수 입력을 역순으로 출력
+                    Console.WriteLine("{0}", stack[sp--]); //정수 입력을 역순으로 출력 (입력의 끝은 0)
                 }
             }
 
