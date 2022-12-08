@@ -27,8 +27,8 @@ namespace mid_exam_3
             Calc_delegate cal_del_add = new Calc_delegate(am.Calc_Add);
             Calc_delegate cal_del_mul = new Calc_delegate(am.Calc_Mul);
 
-            add = cal_del_add(a, b);
-            mul = cal_del_mul(a, b);
+            add = cal_del_add(a, b); //덧셈 델리게이트
+            mul = cal_del_mul(a, b); //곱셈 델리게이트
 
             Console.WriteLine(" ADD : {0}+{1}={2}", a, b, add);
             Console.WriteLine(" MUL : {0}*{1}={2}", a, b, mul);
