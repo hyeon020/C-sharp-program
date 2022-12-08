@@ -30,11 +30,11 @@ namespace mid_exam_5
         {
             get
             {
-                return radius;
+                return radius; //get 결과
             }
             set
             {
-                radius = value;
+                radius = value; //set 결과
             }
         }
         public double Ar //Ar 프로퍼티
