@@ -90,8 +90,8 @@ namespace p260_9
                     Console.WriteLine("큐오버플로우");
                 }
                 arr[(rear) % size] = str;
-                rear++;
-                count++;
+                rear++; //rear증가
+                count++; //count
             }
 
             public string Delete()  //큐의 front에서 제거한 후 반환
