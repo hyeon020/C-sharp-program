@@ -45,24 +45,24 @@ namespace WindowsFormsApp2
                 fontStyle = fontStyle | FontStyle.Italic;
             if (d)
                 fontStyle = fontStyle | FontStyle.Strikeout;
-            label3.Font = new Font("굴림", 9, fontStyle);
+            label3.Font = new Font("굴림", 9, fontStyle); 
         }
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void checkBox1_CheckedChanged(object sender, EventArgs e) //체크박스1 선택
         {
             Update(checkBox1.Checked, checkBox2.Checked, checkBox3.Checked, checkBox4.Checked);
         }
 
-        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        private void checkBox2_CheckedChanged(object sender, EventArgs e) //체크박스2 선택
         {
             Update(checkBox1.Checked, checkBox2.Checked, checkBox3.Checked, checkBox4.Checked);
         }
 
-        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        private void checkBox3_CheckedChanged(object sender, EventArgs e) //체크박스3 선택
         {
             Update(checkBox1.Checked, checkBox2.Checked, checkBox3.Checked, checkBox4.Checked);
         }
 
-        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        private void checkBox4_CheckedChanged(object sender, EventArgs e) //체크박스4 선택
         {
             Update(checkBox1.Checked, checkBox2.Checked, checkBox3.Checked, checkBox4.Checked);
         }

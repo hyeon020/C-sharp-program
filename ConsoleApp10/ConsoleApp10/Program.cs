@@ -10,6 +10,10 @@ namespace ConsoleApp10
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("\t is tab.");
+            Console.WriteLine("'\t' is tab.");
+            Console.WriteLine("\'\t\' is tab.");
+            Console.WriteLine("'\\t' is tab.");
         }
     }
 }

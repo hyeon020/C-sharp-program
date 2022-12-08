@@ -21,7 +21,7 @@ class P150_10
 
         pay -= price; //지불한 가격에서 가격을 뺌
         sum = 0;
-        for(i=0; i<6; i++)
+        for(i=0; i<6; i++) //배열 0부터 6까지
         {
             change[i] = pay / don[i];
             sum += change[i];

@@ -17,11 +17,11 @@ namespace mid_exam_4
 
         }
     }
-    class EventHandlerClass
+    class EventHandlerClass //EventHandler 클래스
     {
        public void MyMethod(int k)
        {
-            for(int i=0;i<=k;i++)
+            for(int i=0;i<=k;i++) //i는 0부터 k까지
             {
                 Console.Write("i= {0}, ", i); //for문을 사용하여 입력받은 수까지 출력
             }

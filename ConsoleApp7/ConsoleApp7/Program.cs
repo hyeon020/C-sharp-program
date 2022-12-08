@@ -39,7 +39,7 @@ namespace p259_7
     {
         public Fahrenheit(double t) : base(t) { }
 
-        public static explicit operator Fahrenheit(double d) //(!).double을 Fahrenheit로 변환하는 형변환 연산자
+        public static explicit operator Fahrenheit(double d) //(1).double을 Fahrenheit로 변환하는 형변환 연산자
         {
             Fahrenheit f = new Fahrenheit(d);
             return f;

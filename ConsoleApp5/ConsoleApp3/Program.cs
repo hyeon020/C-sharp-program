@@ -135,7 +135,7 @@ namespace ConsoleApplication34
             Date date1 = new Date(06, 15, 2022);
             Date date2 = new Date(06, 26, 2022);
             Date date3 = new Date(06, 30, 2022);
-            Date date4 = new Date(06, 01, 2022);
+            Date date4 = new Date(06, 01, 2022); //날짜 임의로 지정
 
             Console.WriteLine("date1==date2 : {0}", date1 == date2);
             Console.WriteLine("date1!=date2 : {0}", date1 != date2);

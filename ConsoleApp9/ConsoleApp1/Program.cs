@@ -15,7 +15,7 @@ namespace ConsoleApp1
         }
         public String getValue()
         {
-            String str = "";
+            String str = ""; //문자열 str 지정
             foreach (T e in list) str += (e.ToString() + " "); //문자열로 비꾸어 공백으로 구분하여 연결
             return str; //연결한 문자열 반환
         }

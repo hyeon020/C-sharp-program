@@ -14,11 +14,11 @@ namespace exam_01
 
             if (gender == "m") //만약 성별이 m(남성)이면
             {
-                Console.WriteLine("당신은 남성이고, 학번은 {0}입니다.", num);
+                Console.WriteLine("당신은 남성이고, 학번은 {0}입니다.", num); //성별과 학번 출력
             }
             else //성별이 f(여성)이면
             {
-                Console.WriteLine("당신은 여성이고, 학번은 {0}입니다.", num);
+                Console.WriteLine("당신은 여성이고, 학번은 {0}입니다.", num); //성별과 학번 출력
             }
         }
     }

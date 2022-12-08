@@ -14,7 +14,7 @@ namespace ConsolApp7
 
         public double Balance     //프로퍼티
         {
-            get { return balance; }
+            get { return balance; }  //잔액조회
             //set { balance = value; }
         }
 

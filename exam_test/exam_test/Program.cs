@@ -22,7 +22,7 @@ namespace exam_2
         public double ar;
         public void Area()
         {
-            this.ar = radius * radius * Math.PI;
+            this.ar = radius * radius * Math.PI; //ar는 원의 넓이
         }
         public double Radius
         {
@@ -50,9 +50,9 @@ namespace exam_2
             FileStream fs;
             try
             {
-                fs = new FileStream("indata.dat", FileMode.Open);
+                fs = new FileStream("indata.dat", FileMode.Open); //파일을 열기
             }
-            catch (IOException)
+            catch (IOException) //예외상황
             {
                 Console.WriteLine("파일을 열 수 없습니다.");
                 return;

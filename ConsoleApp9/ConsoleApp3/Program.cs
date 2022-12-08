@@ -24,7 +24,7 @@ namespace ConsoleApp3
             {
                 Console.WriteLine("3");
             }
-            finally
+            finally //무조건 출력해야 하는 구문
             {
                 Console.WriteLine("4");
             }

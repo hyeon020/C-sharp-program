@@ -26,7 +26,7 @@ namespace ConsoleApp5
             d.x = 1.0; d.y = 2.0;       //d의 필드 x, y에 각각 1.0과 2.0저장
             Console.WriteLine("x: " + d.x + " y: " + d.y);  //현재 x, y값 출력
             d.swap();   //swap() 메소드를 호출하여 x와 y값 교환
-            Console.WriteLine("x: " + d.x + " y: " + d.y);   
+            Console.WriteLine("x: " + d.x + " y: " + d.y);   //x와 y값 출력
         }
     }
 }

@@ -33,7 +33,7 @@ namespace p260_8
     }
     class Circle : Figure
     {
-        public double Radius { get; set; }
+        public double Radius { get; set; } //get, set 실수형 정의
         public Circle() { Radius = 1; }
         public Circle(double radius) { Radius = radius; } //반지름을 매개변수로하는 생성자
 

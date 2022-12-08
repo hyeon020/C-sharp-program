@@ -14,8 +14,8 @@ class P149_5
         Console.Write("두 번째 수를 입력하세요: ");
         Y = Int32.Parse(Console.ReadLine());
 
-        if (X>Y) { G = X; Max = Y; }
-        else { G = Y; Max = X; }
+        if (X>Y) { G = X; Max = Y; } //X가 Y보다 크면 최대값 Y
+        else { G = Y; Max = X; } //반대면 최대값 X
 
         while(true)
         {

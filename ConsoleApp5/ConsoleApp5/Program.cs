@@ -29,8 +29,8 @@ namespace practice4_12
         public Complex AddComplex(Complex a)  // 덧셈 연산 메소드
         {
             Complex C = new Complex(0, 0);
-            C.real = this.real + a.real;
-            C.image = this.image + a.image;
+            C.real = this.real + a.real; //실수부 덧셈
+            C.image = this.image + a.image; //허수부 덧셈
             return C;
         }
 

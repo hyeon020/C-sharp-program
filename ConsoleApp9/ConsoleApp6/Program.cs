@@ -3,7 +3,7 @@ using System.IO;
 
 namespace ConsoleApp6
 {
-    class Program
+    class Program //chapter6
     {
         static void Main(string[] args)
         {
