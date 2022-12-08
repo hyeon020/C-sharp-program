@@ -9,14 +9,14 @@ namespace test2
 {
     class GenericApp
     {
-        public string Connect<T>(int OP, T a, string b)
+        public string Connect<T>(int OP, T a, string b) //제네릭 클래스 사용
         {
             string result = "";
-            if (OP == 1)
+            if (OP == 1) //OP가 1일 때
             {               
                 result = b.ToString() + a.ToString() + b.ToString();
             }
-            else if (OP == 0)
+            else if (OP == 0) //OP가 0일 때
             {             
                 result =  a.ToString() + b.ToString() + b.ToString();
             }
@@ -41,7 +41,7 @@ namespace test2
                 str1 = Console.ReadLine();
                 Console.Write(" Read int data from keyboard ? : ");
                 int_indata = int.Parse(Console.ReadLine());
-                Console.WriteLine(conn.Connect(OP, int_indata, str1));
+                Console.WriteLine(conn.Connect(OP, int_indata, str1)); //Connect 클래스 불러옴
             }
             else if(OP == 1)
             {
@@ -49,7 +49,7 @@ namespace test2
                 str1 = Console.ReadLine();
                 Console.Write(" Read double data from keyboard ? : ");
                 double_indata = double.Parse(Console.ReadLine());
-                Console.WriteLine(conn.Connect(OP, double_indata, str1));
+                Console.WriteLine(conn.Connect(OP, double_indata, str1)); //Connect 클래스 불러옴
             }
         }
     }
