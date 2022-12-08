@@ -30,7 +30,7 @@ namespace practice4_12
         {
             Complex C = new Complex(0, 0);
             C.real = a.real + b.real;
-            C.image = a.image + b.image;
+            C.image = a.image + b.image; //c = a + b
             return C;
         }
 
@@ -38,7 +38,7 @@ namespace practice4_12
         {
             Complex C = new Complex(0, 0);
             C.real = a.real - b.real;
-            C.image = a.image - b.image;
+            C.image = a.image - b.image; //c = a - b
             return C;
         }
 
@@ -46,7 +46,7 @@ namespace practice4_12
         {
             Complex C = new Complex(0, 0);
             C.real = (a.real * b.real) - (a.image * b.image);
-            C.image = (a.real * b.image) - (a.image * b.real);
+            C.image = (a.real * b.image) - (a.image * b.real); //c = a * b
             return C;
         }
 
