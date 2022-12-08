@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp2
 {
-    internal class Program
+    class ForeachStApp
     {
-        static void Main(string[] args)
+        public static void Main()
         {
+            String[] color = {"red", "green", "blue"};
+            foreach(string s in color)
+                Console.WriteLine(s);
         }
     }
 }
