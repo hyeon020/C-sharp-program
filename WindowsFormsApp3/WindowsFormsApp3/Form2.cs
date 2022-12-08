@@ -19,7 +19,7 @@ namespace WindowsFormsApp3
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close(); //버튼 눌렀을 때 종료
         }
     }
 }
