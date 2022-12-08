@@ -18,7 +18,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e) //버튼1 클릭했을 경우
         {
             openFileDialog1.InitialDirectory = @"C:\";
             openFileDialog1.Filter = "텍스트 파일(*.txt)|*.txt|모든 파일(*.*)|*.*";
@@ -30,9 +30,9 @@ namespace WindowsFormsApp1
             FileStream fs;
             try
             {
-                fs = new FileStream(openFileDialog1.FileName, FileMode.Open);
+                fs = new FileStream(openFileDialog1.FileName, FileMode.Open); //파일 열기
             }
-            catch(IOException)
+            catch(IOException) //예외상황
             {
                 Console.Write("파일을 열 수 없습니다.");
                 return;
@@ -40,7 +40,7 @@ namespace WindowsFormsApp1
             StreamReader r = new StreamReader(fs);
             string s;
 
-            while((s = r.ReadLine()) != null )
+            while((s = r.ReadLine()) != null ) 
             {
                 textBox1.Text += s + "\r\n";
             }
