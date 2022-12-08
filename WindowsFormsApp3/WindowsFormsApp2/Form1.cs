@@ -19,11 +19,11 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (checkBox1.Checked)
+            if (checkBox1.Checked) //체크박스1을 체크했을 경우
                 fontDialog1.ShowApply = true;
             else
                 fontDialog1.ShowApply = false;
-            if(checkBox2.Checked )
+            if(checkBox2.Checked ) //체크박스2를 체크했을 경우
                 fontDialog1.ShowApply = true;
             else
                 fontDialog1.ShowApply = false;
