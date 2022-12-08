@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp6
+namespace Shape
 {
-    internal class Program
+    public class Rectangle
     {
-        static void Main(string[] args)
+        public int height;
+        public int wight;
+        override public string ToString()
         {
+            return string.Format("Width: {0}, Height: {1}", width, height);
         }
     }
 }
