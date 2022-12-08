@@ -11,7 +11,7 @@ namespace mid_exam_6
         }
         public double this[int row, int col]
         {
-            get { return num[row, col]; }
+            get { return num[row, col]; } //행과 열 리턴
         }
         public static Matrix2D operator +(Matrix2D a, Matrix2D b)
         {
@@ -23,10 +23,10 @@ namespace mid_exam_6
             string r_string;
             r_string = " \n";
 
-            for(int i = 0; i<2; i++)
+            for(int i = 0; i<2; i++) 
             {
                 for (int j = 0; j < 2; j++)
-                    r_string += String.Format($"M[{i},{j}]={num[i, j]} ");
+                    r_string += String.Format($"M[{i},{j}]={num[i, j]} "); //i와 j 합
                 r_string += String.Format("\n");
             }
             return r_string;
