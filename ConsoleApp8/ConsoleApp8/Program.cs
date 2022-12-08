@@ -16,7 +16,7 @@ namespace ConsoleApp8
                 w.WriteLine("This is line one");
                 w.WriteLine("This is line two");
             }
-            using (TextReader r = File.OpenText("log.txt"))
+            using (TextReader r = File.OpenText("log.txt")) //텍스트파일 열기
             {
                 int c;
                 while((c = r.Read()) != -1)
