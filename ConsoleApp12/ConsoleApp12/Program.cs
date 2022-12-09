@@ -15,7 +15,7 @@ namespace ConsoleApp12
             Console.WriteLine(x + " & " + y + " = " + (x & y));
             Console.WriteLine(x + "     " + y + " = " + (x | y));
             Console.WriteLine(x + " ^ " + y + " = " + (x ^ y));
-            Console.WriteLine("~10 = " + (~10));
+            Console.WriteLine("~10 = " + (~10)); //결과 출력
         }
     }
 }
