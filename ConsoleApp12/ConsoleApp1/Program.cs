@@ -10,8 +10,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(" 10 << 2 = " + (10 << 2));
-            Console.WriteLine(" 10 >> 2 = " + (10 >> 2));
+            Console.WriteLine(" 10 << 2 = " + (10 << 2)); //10 << 2 = 40
+            Console.WriteLine(" 10 >> 2 = " + (10 >> 2)); //10 >> 2 = 2
         }
     }
 }
