@@ -38,10 +38,10 @@ namespace WindowsFormsApp1
             if (e.Button == MouseButtons.Left)
             {
                 flag = 1;
-                start_point = new Point(e.X, e.Y);
+                start_point = new Point(e.X, e.Y); //마우스를 누른 좌표 저장
             }
-            else
-                flag = 0;
+            else  //마우스 오른쪽 버튼 누를 시
+                flag = 0; //flag를 0으로 
         }
 
         private void Form1_MouseUp(object sender, MouseEventArgs e)
