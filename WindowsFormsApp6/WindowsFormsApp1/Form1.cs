@@ -44,11 +44,12 @@ namespace WindowsFormsApp1
                 flag = 0; //flag를 0으로 
         }
 
+        //폼에서 마우스를 뗄 시 호출되는 메소드
         private void Form1_MouseUp(object sender, MouseEventArgs e)
         {
-            if (flag == 0)
+            if (flag == 0) //flag가 0이면 초기화면 그림
                 g.DrawImage(img, ClientRectangle);
-            else
+            else //flag가 0이 아니면 확대
             {
                 end_point = new Point(e.X, e.Y);
                 rect_start.X = Math.Min(start_point.X, end_point.X);
