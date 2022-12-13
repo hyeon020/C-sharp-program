@@ -16,7 +16,7 @@ namespace WindowsFormsApp6
     {
         List<Point> list = new List<Point>(); //Point 리스트 list
         Point[] pts; //Point 배열 pts
-        Graphics g;
+        Graphics g; //그래픽 객체 g
 
         void Draw(bool a, bool b, bool c, bool d)
         {
