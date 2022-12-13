@@ -15,10 +15,10 @@ namespace WindowsFormsApp1
         Graphics g; //그래픽 객체 g
         Image img;
         Point start_point; //마우스를 누른 좌표 저장
-        Point end_point;
-        Point rect_start;
-        Point rect_end;
-        int flag = 0;
+        Point end_point; //마우스를 뗀 좌표 저장
+        Point rect_start;  //확대할 범위의 사각형 왼쪽 상단 좌표
+        Point rect_end;   //확대할 범위의 사각형 오른쪽 하단 좌표
+        int flag = 0; //초기화면을 띄울지 확대할지 정할 flag 변수
 
         public Form1()
         {
