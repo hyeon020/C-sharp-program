@@ -28,10 +28,11 @@ namespace WindowsFormsApp1
         private void Form1_Shown(object sender, EventArgs e)
         {
             g = CreateGraphics();
-            img = new Bitmap("석양.jpg");
+            img = new Bitmap("석양.jpg"); //화면에 띄울 이미지
             g.DrawImage(img, ClientRectangle);
         }
 
+        //폼에서 마우스를 누를 시 호출되는 메소드
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
