@@ -22,6 +22,7 @@ namespace WindowsFormsApp2
             InitializeComponent();
         }
 
+        //comboBox1의 값이 바뀌면 호출되는 메소드
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Font_Update();
