@@ -25,12 +25,13 @@ namespace WindowsFormsApp2
         //comboBox1의 값이 바뀌면 호출되는 메소드
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            Font_Update();
+            Font_Update(); //함수 호출
         }
 
+        //numericUpDown1의 값이 바뀌면 호출되는 메소드
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
         {
-            Font_Update();
+            Font_Update(); //함수 호출
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
