@@ -14,8 +14,8 @@ namespace WindowsFormsApp6
     
     public partial class Form1 : Form
     {
-        List<Point> list = new List<Point>();
-        Point[] pts;
+        List<Point> list = new List<Point>(); //Point 리스트 list
+        Point[] pts; //Point 배열 pts
         Graphics g;
 
         void Draw(bool a, bool b, bool c, bool d)
