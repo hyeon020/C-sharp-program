@@ -12,9 +12,9 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        Graphics g;
+        Graphics g; //그래픽 객체 g
         Image img;
-        Point start_point;
+        Point start_point; //마우스를 누른 좌표 저장
         Point end_point;
         Point rect_start;
         Point rect_end;
