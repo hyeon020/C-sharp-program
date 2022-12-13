@@ -22,8 +22,8 @@ namespace WindowsFormsApp6
         {
             if (list.Count >= 2)
             {
-                g.Clear(this.BackColor);
-                if (radioButton1.Checked)
+                g.Clear(this.BackColor); //이전 내용 지우기
+                if (radioButton1.Checked) //Line이 체크 되어 있을 경우
                     g.DrawLines(new Pen(Color.Black), pts);
                 else if (radioButton2.Checked)
                     g.DrawPolygon(new Pen(Color.Black), pts);
