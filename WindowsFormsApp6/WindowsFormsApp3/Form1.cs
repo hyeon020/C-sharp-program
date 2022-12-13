@@ -15,10 +15,10 @@ namespace WindowsFormsApp3
     {
         Graphics g;
         Rectangle r;
-        int sweep_angle = 300;
-        int start_angle = 30;
-        int count = 0;
-        int feed = 200;
+        int sweep_angle = 300; //그려지는 각도
+        int start_angle = 30; //시작각도
+        int count = 0; //팩맨의 동작 과정 3단계(0,1,2)
+        int feed = 200; //먹이가 있는 곳
 
         public Form1()
         {
@@ -28,14 +28,17 @@ namespace WindowsFormsApp3
         private void Form1_Shown(object sender, EventArgs e)
         {
             g = CreateGraphics();
+            //팩맨의 몸체
             r = new Rectangle(50, 50, 100, 100);
             g.FillPie(Brushes.Yellow, r, start_angle, sweep_angle);
             g.DrawPie(Pens.Black, r, start_angle, sweep_angle);
 
+            //팩맨의 눈 
             r = new Rectangle(90, 70, 10, 10);
             g.FillEllipse(Brushes.Black, r);
             g.DrawEllipse(Pens.Black, r);
-
+            
+            //팩맨의 먹이
             r = new Rectangle(feed, 90, 20, 20);
             g.FillEllipse (Brushes.Red, r);
             g.DrawEllipse(Pens.Red, r);
