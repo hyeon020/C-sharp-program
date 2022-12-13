@@ -42,9 +42,9 @@ namespace WindowsFormsApp6
         private void Form1_MouseDown(object sender, MouseEventArgs e)
         {
             g = CreateGraphics();
-            if(e.Button == MouseButtons.Left)
+            if(e.Button == MouseButtons.Left) //마우스 왼쪽 버튼 클릭 시
             {
-                list.Add(new Point(e.X, e.Y));
+                list.Add(new Point(e.X, e.Y)); //리스트에 마우스 클릭 좌표 추가 
 
                 pts = new Point[list.Count];
                 for(int i=0; i<list.Count; i++)
@@ -63,6 +63,7 @@ namespace WindowsFormsApp6
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
+            //라디오버튼 체크 상태에 따른 그리기
             Draw(radioButton1.Checked, radioButton2.Checked, radioButton3.Checked, radioButton4.Checked);
         }
 
