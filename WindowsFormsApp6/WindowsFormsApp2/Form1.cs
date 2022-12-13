@@ -12,6 +12,7 @@ namespace WindowsFormsApp2
 {
     public partial class Form1 : Form
     {
+        //글자체와 글자크기를 바꿔주는 함수
         public void Font_Update()
         {
             FontStyle fontStyle = FontStyle.Regular;
@@ -34,6 +35,7 @@ namespace WindowsFormsApp2
             Font_Update(); //함수 호출
         }
 
+        //textBox1의 입력이 바뀌면 호출되는 메소드
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             label3.Text = textBox1.Text;
