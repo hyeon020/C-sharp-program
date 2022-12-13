@@ -25,10 +25,11 @@ namespace WindowsFormsApp6
                 g.Clear(this.BackColor); //이전 내용 지우기
                 if (radioButton1.Checked) //Line이 체크 되어 있을 경우
                     g.DrawLines(new Pen(Color.Black), pts);
-                else if (radioButton2.Checked)
+                else if (radioButton2.Checked) //Polygon이 체크 되어 있을 경우
                     g.DrawPolygon(new Pen(Color.Black), pts);
-                else if (radioButton3.Checked)
+                else if (radioButton3.Checked) //Curve가 체크 되어 있을 경우
                     g.DrawCurve(new Pen(Color.Black), pts);
+                //ClosedCurve가 체크 되어 있을 경우, Point가 3개 이상 저장 되어 있으면
                 else if (radioButton4.Checked && list.Count >= 3)
                     g.DrawClosedCurve(new Pen(Color.Black), pts);
             }
