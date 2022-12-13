@@ -51,13 +51,14 @@ namespace WindowsFormsApp1
                 g.DrawImage(img, ClientRectangle);
             else //flag가 0이 아니면 확대
             {
-                end_point = new Point(e.X, e.Y);
+                end_point = new Point(e.X, e.Y);  //마우스를 뗀 좌표 저장
                 rect_start.X = Math.Min(start_point.X, end_point.X);
                 rect_start.Y = Math.Min(start_point.Y, end_point.Y);
 
                 rect_end.X = Math.Max(start_point.X, end_point.X);
                 rect_end.Y = Math.Max(start_point.Y, end_point.Y);
 
+                //확대할 사각형의 너비와 높이
                 int width = rect_end.X - rect_start.X;
                 int height = rect_end.Y - rect_start.Y;
 
