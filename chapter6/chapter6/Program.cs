@@ -10,7 +10,7 @@ namespace chapter6
     {
         private T[] values;
         private int index;
-        public SimpleGeneric(int len) {
+        public SimpleGeneric(int len) { //Constructor
             values = new T[len];
             index = 0;
     }
