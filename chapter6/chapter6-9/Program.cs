@@ -11,7 +11,7 @@ namespace chapter6_9
         public static void Main()
         {
             int i = 1, j = 0, k;
-            k = i / j; //처리되지 않는 예제
+            k = i / j; //처리되지 않는 예제(0으로 나누려 함)
         }
     }
 }
