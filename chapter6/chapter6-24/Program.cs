@@ -2,14 +2,20 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using System.Threading;
 
 namespace chapter6_24
 {
-    internal class Program
+    public void ThreadBody()
     {
-        static void Main(string[] args)
+        Thread myself = Thread.CurrentThread;
+        lock (this)
         {
+            for(int i = 1; i <= 3; i++)
+            {
+                Console.WriteLine("{0} is activated => {1}", myself.Name, i);
+                Thread.Sleep(1000);
+            }
         }
     }
 }
