@@ -13,7 +13,7 @@ namespace chapter6_18
             for(int i = 0; i<5; i++)
             {
                 Console.WriteLine(DateTime.Now.Second + " : " + i);
-                Thread.Sleep(1000);
+                Thread.Sleep(1000); //1초 지정
             }
         }
         public static void Main()
@@ -21,7 +21,7 @@ namespace chapter6_18
             ThreadStart ts = new ThreadStart(ThreadBody);
             Thread t = new Thread(ts);
             Console.WriteLine("*** Start of Main");
-            t.Start();
+            t.Start(); //시작
             Console.WriteLine("*** End of Main");
         }
     }
