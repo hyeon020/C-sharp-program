@@ -26,8 +26,8 @@ namespace chapter6_19
             ThreadStart ts = new ThreadStart(obj.ThreadBody);
             Thread t1 = new Thread(ts);
             Thread t2 = new Thread(ts);
-            t1.Name = "Apple"; t2.Name = "Orange";
-            t1.Start(); t2.Start();
+            t1.Name = "Apple"; t2.Name = "Orange"; //이름 저장
+            t1.Start(); t2.Start(); //타임 시작
         }
     }
 }
