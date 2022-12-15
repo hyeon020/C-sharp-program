@@ -31,8 +31,8 @@ namespace chapter6
             GenericClass<String> gstring = new GenericClass<String>();
             gInteger.SetValue(10);
             gstring.SetValue("Text");
-            Console.WriteLine(gInteger.GetValueType()); //
-            Console.WriteLine(gstring.GetValueType());
+            Console.WriteLine(gInteger.GetValueType()); //Int32 출력
+            Console.WriteLine(gstring.GetValueType());  //String 출력
         }
     }
 }
