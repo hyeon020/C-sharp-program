@@ -17,10 +17,10 @@ namespace chapter6_8
         {
             try
             {
-                throw new UserErrException("throw a exception with a message");
+                throw new UserErrException("throw a exception with a message"); //출력결과
             }
-            catch(UserErrException e)
-            {
+            catch(UserErrException e) 
+            { 
                 Console.WriteLine(e.Message);
             }
         }
