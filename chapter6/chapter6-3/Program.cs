@@ -18,7 +18,7 @@ namespace chapter6_3
         {
             int a = 1, b = 2; double c = 1.5, d = 2.5;
             Console.WriteLine("Before: a = {0}, b = {1}", a, b);
-            Swap<int>(ref a, ref b);
+            Swap<int>(ref a, ref b); //swap은 값 
             Console.WriteLine(" After: a = {0}, b = {1}", a, b);
             Console.WriteLine(" Befor: c = {0}, d = {1}", c, d);
             Swap<double>(ref c, ref d);
