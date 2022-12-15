@@ -9,7 +9,7 @@ namespace chapter6_24
     public void ThreadBody()
     {
         Thread myself = Thread.CurrentThread;
-        lock (this)
+        lock (this) //lock문 
         {
             for(int i = 1; i <= 3; i++)
             {
