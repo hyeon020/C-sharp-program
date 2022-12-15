@@ -9,9 +9,9 @@ namespace chapter6_3
 {
     class GenericMethodApp
     {
-        static void Swap<DateType>(ref DataType x, ref DataType y)
+        static void Swap<DataType>(ref DataType x, ref DataType y)
         {
-            DataType temp;
+            DataType temp; //DataType지정
             temp = x; x = y; y = temp;
         }
         public static void Main()
