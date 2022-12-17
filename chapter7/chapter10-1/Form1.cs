@@ -19,12 +19,12 @@ namespace chapter10_1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
+            listBox1.Items.Clear(); //button1 클릭시 지움
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Exit();  //button2 클릭시 종료
         }
 
         private void 새파일NToolStripMenuItem_Click(object sender, EventArgs e)
