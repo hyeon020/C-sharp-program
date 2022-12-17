@@ -10,7 +10,7 @@ namespace chapter6
     {
         private T[] values;
         private int index;
-        public SimpleGeneric(int len) {
+        public SimpleGeneric(int len) { //Constructor
             values = new T[len];
             index = 0;
     }
@@ -35,7 +35,7 @@ namespace chapter6
             gInteger.Add(1, 2);
             gInteger.Add(1, 2, 3, 4, 5, 6, 7);
             gInteger.Add(0);
-            gInteger.Print();
+            gInteger.Print(); //없으면 출력이 안됨
             
             gDouble.Add(10.0, 20.0, 30.0);
             gDouble.Print();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace chapter6
 {
-    interface IGenericInterface<T>
+    interface IGenericInterface<T> //형매개변수 선언
     {
         void SetValue(T x);
         string GetValueType();
@@ -31,8 +31,8 @@ namespace chapter6
             GenericClass<String> gstring = new GenericClass<String>();
             gInteger.SetValue(10);
             gstring.SetValue("Text");
-            Console.WriteLine(gInteger.GetValueType());
-            Console.WriteLine(gstring.GetValueType());
+            Console.WriteLine(gInteger.GetValueType()); //Int32 출력
+            Console.WriteLine(gstring.GetValueType());  //String 출력
         }
     }
 }
