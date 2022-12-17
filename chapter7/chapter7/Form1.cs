@@ -19,22 +19,22 @@ namespace chapter7
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = FlatStyle.Flat.ToString();
+            label1.Text = FlatStyle.Flat.ToString(); //flat스타일로 지정
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            label1.Text = FlatStyle.Popup.ToString();
+            label1.Text = FlatStyle.Popup.ToString(); //Popup스타일로 지정
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            label1.Text = FlatStyle.Standard.ToString();
+            label1.Text = FlatStyle.Standard.ToString(); //Standart스타일로 지정
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            label1.Text = FlatStyle.System.ToString();
+            label1.Text = FlatStyle.System.ToString(); //System스타일로 
         }
     }
 }
