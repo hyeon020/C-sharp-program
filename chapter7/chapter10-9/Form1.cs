@@ -25,13 +25,13 @@ namespace chapter10_9
             switch(e.KeyCode)
             {
                 case Keys.Left:
-                    xPt -= MOVE; break;
+                    xPt -= MOVE; break; //key를 왼쪽으로 눌렀을 시
                 case Keys.Right:
-                    xPt += MOVE; break;
+                    xPt += MOVE; break;  //key를 오른쪽으로 눌렀을 시
                 case Keys.Up:
-                    yPt -= MOVE; break;
+                    yPt -= MOVE; break;  //key를 위쪽으로 눌렀을 시
                 case Keys.Down:
-                    yPt += MOVE; break;
+                    yPt += MOVE; break;  //key를 쪽으로 눌렀을 시
             }
             this.button1.Text = e.KeyCode.ToString();
             this.button1.Location = new Point(xPt, yPt);
