@@ -20,7 +20,7 @@ namespace chapter8_5
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 form2 = new Form2();
-            form2.Show(); //모덜리스 방식으로 사용
+            form2.Show(); //모덜리스 방식으로 나타냄
         }
     }
 }
